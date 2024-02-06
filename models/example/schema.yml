@@ -6,8 +6,6 @@ sources:
     tables:
       - name: product
         identifier: raw_gz_product
-        columns:
-          - name: purchse_price AS purchase_price
       - name: sales
         identifier: raw_gz_sales
       - name: ship
