@@ -19,8 +19,8 @@ sources:
         tests:
           - unique:
               column_name: "(orders_id ||'-'|| pdt_id)"
-        freshness:
-          warn_after: { count: 90, period: day }
+        #freshness:
+        #warn_after: { count: 90, period: day }
         loaded_at_field: "CAST(date_date as TIMESTAMP)"
       - name: ship
         description: ship table from greenweez
